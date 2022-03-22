@@ -1,0 +1,84 @@
+.header h1{
+    color:#afa230;
+align-content: center;
+    margin-left:  80px;
+}
+
+.box 
+{
+    display:flex ;
+    flex-wrap:wrap;
+justify-content: space-evenly
+
+}
+
+.header{
+ background-color: #130b55;
+ display:flex;
+ justify-content: space-between;
+ align-content: center;
+}
+
+
+.description{
+display:flex;
+flex-direction: column;
+justify-content: first baseline;
+color: #a0df34; 
+font-size: 20px;
+text-align: center; 
+}
+
+body{
+    background-color: aqua;
+    
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.description h1{
+    color: rgb(211, 20, 147);
+}
+
+.menu a{
+    color: aqua;
+    margin:9px;
+}
+
+.menu{
+padding-top: 20px;
+}
+
+a:link{
+   color: #2f13cd; 
+}
+
+a:visited{
+    color: #990022;
+}
+
+.project p{
+    font-size: 25px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+
+}
+.project{
+    position:relative;
+}
+
+.project:hover p
+{
+    opacity: 1; 
+
+}
+
+.project:hover img{
+    opacity: 0.2;
+}
